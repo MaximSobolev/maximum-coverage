@@ -64,7 +64,7 @@ class MainKtTest {
 
         val resultCommission = calculateCommission(amount)
 
-        assertEquals(0, resultCommission)
+        assertEquals(2600, resultCommission)
     }
 
     @Test
@@ -74,11 +74,6 @@ class MainKtTest {
 
         val resultCommission = calculateCommission(amount, cardType)
 
-        assertEquals(0, resultCommission)
+        assertEquals(100, resultCommission)
     }
-
-
-
-
-
 }
